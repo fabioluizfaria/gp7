@@ -1,0 +1,125 @@
+
+  .img2{
+    height: 432px;
+    /* width: none; */
+
+    /* float: left; */
+    border: transparent thin solid;
+    padding: 0px;
+    margin: 0px 10px 10px 0;
+    margin-left: 0px;
+    display: inline-block;
+  }
+  #titulo1{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+
+  }
+  #elemento{
+    margin-bottom: 5%;
+  }
+  .img3{
+     /* display: inline;  */
+     float:left;
+  }
+.corpo{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+  .texto_hist {
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(107, 107, 107);
+    font-family:  Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    margin-bottom: 50px ;
+  }
+  .img4{
+    /* height: 432px;
+    width: 705px; */
+    /* float: right; */
+    display: inline;
+    /* border: transparent thin solid;
+    padding: 0px;
+    margin: 0px 10px 10px 0;
+    margin-left: 0px; */
+  }
+  
+  .morfolina{
+    display: flex;
+    margin-top: 8%;
+  }
+  .ametrina{
+    display: flex;
+  }
+  .aldrin{
+    display: flex;
+  }
+  .dinoseb{
+    display: flex;
+  }
+  .dazomet{
+    display: flex;
+  }
+
+    @media screen and (max-width: 768px){
+
+ /* .text{
+  text-align:right;
+ } */
+ .morfolina{
+  display: inline;
+  
+}
+      .ametrina{
+        display: inline;
+        
+      }
+      .aldrin{
+        display: inline;
+      }
+      .dinoseb{
+        display: inline;
+      }
+      .dazomet{
+        display: inline;
+      }
+      
+      .img3{
+        width: 100% ;
+        height: 30%;
+       
+      }
+      .img2{
+        width: 90% ;
+        height: 30%;
+      }
+
+      .img4{
+        width: 100% ;
+        height: 30%;
+      }
+      .texto_hist {
+      
+        text-align: justify;
+        color: rgb(107, 107, 107);
+        font-family:  Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+        margin-bottom: 50px ;
+        margin-right: 35px;
+        font-size: 20px;
+      }
+    
+      #titulo1{
+        font-weight: bold;
+    
+        font-size: 30px;
+        color: black;
+      
+      }
+      .corpo{
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+    
+    
+  }

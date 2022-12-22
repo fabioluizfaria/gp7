@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
+#navegacao {
+  height: 6vh;
+  display: inline-block;
+  align-items: flex-start;
+  box-shadow: 0 1em 1em rgba(0, 0, 0, 0.77);
+
+}
+#titulo{
+  font-weight: bold;
+
+}
+p{
+  font-size: 25px;
+
+}
+h2{
+  font-size: 100px;
+}
+#opcao {
+  font-family: "Roboto Condensed";
+}
+
+#volta{
+  background-color: #8ddb82;
+
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.corpo {
+  height: 100%;
+}
+
+.img-nav {
+  width: 50px;
+  display: flex;
+  display: inline-block;
+  padding: 0 0px 0 0px;
+}
+
+.tema {
+  font-family: "Roboto Condensed";
+  color: #a1ffb5;
+  font-size: 26px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #000000;
+  margin-left: 1%;
+  display: inline-block;
+}
+
+.rodape {
+    /* -webkit-box-shadow:0 0 1em rgba(0, 0, 0, 0.77);
+    -moz-box-shadow:0 0 1em rgba(0, 0, 0, 0.77); */
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.77);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 22px;
+  color: gray;
+  text-align: center;
+  bottom: 0;
+  background-color: #ffffff;
+  margin-top: auto;
+}
+
+.img-rodape {
+  width: 100%;
+}
+
+.rodape ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1% 5% 0.5% 5%;
+}
+
+.rodape ul li {
+  display: inline-block;
+}
+
+.logoIFMS {
+  width: 80px;
+    padding: 0 20px 0 20px;
+  }
+  
+
+
+
+@media screen and (max-width: 768px){
+
+
+  #navegacao {
+    font-size: 20px;
+    height: 37px;
+
+}
+
+.cabecalho ul {
+    margin: 1% 1% 1% 10%;
+}
+
+
+
+.rodape{
+
+    font-size: 18px;
+    align-items: center;
+}
+
+.rodape ul {
+    margin: 4% 5px 4% 5px;
+} 
+
+}

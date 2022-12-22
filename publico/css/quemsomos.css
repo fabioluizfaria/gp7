@@ -1,0 +1,27 @@
+
+  .row{
+    margin-top: 50px;
+  }
+
+  .titulo{
+    align-items: center;
+    vertical-align: middle;
+    font-weight: bold;
+    /* font-family: 'Fredoka One'; */
+    Font-family: Verdana, Geneva, sans-serif;
+    color: #60ff83;
+    font-size: 30px;
+    -webkit-text-stroke: 0.9px #000000;
+  }
+ .texto{
+   font-size: 30px;
+   font-family:  Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+   margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 768px){
+    #itens{
+      text-align: center;
+      margin-bottom: 20%;
+    }
+  }

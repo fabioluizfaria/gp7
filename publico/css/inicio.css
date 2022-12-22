@@ -1,0 +1,110 @@
+
+  
+
+.img-fluid {
+  position: relative;
+}
+#texto {
+  position: absolute;
+  margin-top: -30px;
+}
+
+.hero-image {
+  background-image: url("/imagens/flor.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 86vh;
+}
+
+
+.hero-text {
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+#opcao {
+  font-family: "Roboto Condensed";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+ 
+  margin: 0;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+/* #navegacao {
+  height: 6vh;
+  display: inline-block;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 1em 1em rgba(0, 0, 0, 0.77);
+
+} */
+
+
+#titulo{
+  font-weight: bold;
+
+}
+.img-nav {
+  width: 50px;
+  display: flex;
+  display: inline-block;
+  padding: 0 0px 0 2px;
+}
+
+.tema {
+  font-family: "Roboto Condensed";
+  color: #a1ffb5;
+  font-size: 26px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #000000;
+  margin-left: 1%;
+  display: inline-block;
+}
+
+.rodape {
+    /* -webkit-box-shadow:0 0 1em rgba(0, 0, 0, 0.77);
+    -moz-box-shadow:0 0 1em rgba(0, 0, 0, 0.77); */
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.77);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 22px;
+  color: gray;
+  text-align: center;
+  bottom: 0;
+  background-color: #ffffff;
+  height: 10vh;
+
+}
+
+.img-rodape {
+  width: 100%;
+}
+
+.rodape ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1% 5% 0.5% 5%;
+}
+
+.rodape ul li {
+  display: inline-block;
+}
+
+.logoIFMS {
+  width: 80px;
+    padding: 0 20px 0 20px;
+  }
+  

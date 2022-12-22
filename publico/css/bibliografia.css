@@ -1,0 +1,54 @@
+main{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#titulo1{
+    font-weight: bold;
+
+    font-size: 50px;
+    color: black;
+   text-align: center;
+   font-family:  Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  }
+ .referencias{
+    text-align: justify;
+    font-family:  Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    margin-bottom: 50px ;
+    font-size: 22px;
+ }
+ #fonte{
+    word-break: break-word;
+   overflow:visible;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-break: 16px; /* fallback */
+   max-width: 100%; /* fallback */
+   -webkit-line-clamp: 2; /* number of lines to show */
+   /* -webkit-box-orient: vertical; */
+
+}
+
+p a{
+    padding: 10px;
+}
+ @media screen and (max-width: 768px){
+  
+    main{
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+    #titulo1{
+        font-size: 50px;
+        color: black;
+       text-align: center;
+       font-family:  Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+      }
+     .referencias{
+        text-align: justify;
+        font-family:  Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+        margin-bottom: 2% ;
+        font-size: 22px;
+     }
+  
+  
+  }
