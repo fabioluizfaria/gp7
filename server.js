@@ -37,7 +37,7 @@ app.get('/impactos', function(req, res){
 
 app.get('/quemSomos', function(req, res){
     //dirname localiza o o diretorio antes de agrotoxico
-    res.sendFile(__dirname + '/quemsomos.html');
+    res.sendFile(__dirname + '/quemSomos.html');
 });
 app.get('/bibliografia', function(req, res){
     //dirname localiza o o diretorio antes de agrotoxico
